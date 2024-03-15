@@ -1,0 +1,31 @@
+Zarządzane wykonanie i izolacja to być może najważniejsze zalety wirtualizacji. W
+w przypadku technik wspomagających tworzenie zwirtualizowanych środowisk wykonawczych, te dwa
+cechy pozwalają na budowanie bezpiecznych i kontrolowanych środowisk komputerowych. Wirtualna egzekucja
+środowisko można skonfigurować jako piaskownicę, zapobiegając w ten sposób przedostawaniu się szkodliwych operacji
+granice wirtualnego hosta. Ponadto alokacja zasobów i ich podział pomiędzy różne
+goście są uproszczeni, będąc wirtualnym hostem kontrolowanym przez program. Umożliwia to dokładne dostrojenie
+zasobów, co jest bardzo ważne w scenariuszu konsolidacji serwerów i jest również wymagane
+efektywna jakość usług.
+
+Przenośność to kolejna zaleta wirtualizacji, zwłaszcza w przypadku technologii wirtualizacji wykonawczej.
+pytanie. Instancje maszyn wirtualnych są zwykle reprezentowane przez jeden lub więcej plików, które można łatwo utworzyć
+transportowane względem układów fizycznych. Co więcej, są one również zwykle samowystarczalne, ponieważ są
+nie mają innych zależności poza menedżerem maszyny wirtualnej do ich użycia. Przenośność i
+samowystarczalność upraszcza ich administrację. Programy w Javie są „kompilowane raz i uruchamiane za każdym razem”
+Gdzie"; wymagają jedynie zainstalowania na hoście wirtualnej maszyny Java. To samo dotyczy
+wirtualizacja na poziomie sprzętowym. W rzeczywistości możliwe jest zbudowanie własnego środowiska operacyjnego w ramach aplikacji
+instancję maszyny wirtualnej i zabieraj ją ze sobą, gdziekolwiek się udasz, tak jakbyśmy mieli własnego laptopa. Ten
+koncepcja umożliwia także zastosowanie technik migracji w scenariuszu konsolidacji serwerów.
+
+Przenośność i samowystarczalność również przyczyniają się do zmniejszenia kosztów konserwacji, ponieważ
+oczekuje się, że liczba hostów będzie mniejsza niż liczba instancji maszyn wirtualnych. Od
+program gościnny realizowany jest w środowisku wirtualnym, możliwości gościa są bardzo ograniczone
+program do uszkodzenia podstawowego sprzętu. Ponadto można się spodziewać, że będzie mniej
+Menedżerowie maszyn wirtualnych pod względem liczby zarządzanych instancji maszyn wirtualnych.
+
+Wreszcie, dzięki wirtualizacji możliwe jest osiągnięcie bardziej efektywnego wykorzystania zasobów.
+Wiele systemów może bezpiecznie współistnieć i dzielić zasoby hosta bazowego, bez wzajemnych
+rozmawiając ze sobą. Jest to warunek wstępny konsolidacji serwerów, który umożliwia dostosowanie
+liczba aktywnych zasobów fizycznych dynamicznie w zależności od aktualnego obciążenia systemu, a zatem
+stwarzanie możliwości oszczędzania w zakresie zużycia energii i mniejszego wpływu na środowisko
+środowisko.

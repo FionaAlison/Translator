@@ -1,0 +1,23 @@
+
+1.  Connection
+|> manu display DONE
+|> server info 
+|> submit a task
+
+2.  Request ( client gui? )
+|> mounting storage if needed ( AWS EFS )
+|> special file created for user ( might need database ) DONE
+|> file transfer DONE
+
+3.  Text detectection (photo with jpeg / png / jpg)
+|> Tesseract OCR DONE
+|> text translation
+|> text summarisation DONE
+
+4.  Cleanup resources
+|> delete user temp folder DONE
+|> close thread with communication DONE
+
+---
+1. Create AMI
+2. Test EC2 launch sequence and TCP connections -> VPC -> SG -> rules -> target group -> launch 

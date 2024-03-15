@@ -1,0 +1,31 @@
+Managed execution and isolation are perhaps the most important advantages of virtualization. In
+the case of techniques supporting the creation of virtualized execution environments, these two
+characteristics allow building secure and controllable computing environments. A virtual execution
+environment can be configured as a sandbox, thus preventing any harmful operation to cross the
+borders of the virtual host. Moreover, allocation of resources and their partitioning among different
+guests is simplified, being the virtual host controlled by a program. This enables fine-tuning of
+resources, which is very important in a server consolidation scenario and is also a requirement for
+effective quality of service.
+
+Portability is another advantage of virtualization, especially for execution virtualization techni-
+ques. Virtual machine instances are normally represented by one or more files that can be easily
+transported with respect to physical systems. Moreover, they also tend to be self-contained since they
+do not have other dependencies besides the virtual machine manager for their use. Portability and
+self-containment simplify their administration. Java programs are “compiled once and run every-
+where”; they only require that the Java virtual machine be installed on the host. The same applies to
+hardware-level virtualization. It is in fact possible to build our own operating environment within a
+virtual machine instance and bring it with us wherever we go, as though we had our own laptop. This
+concept is also an enabler for migration techniques in a server consolidation scenario.
+
+Portability and self-containment also contribute to reducing the costs of maintenance, since the
+number of hosts is expected to be lower than the number of virtual machine instances. Since the
+guest program is executed in a virtual environment, there is very limited opportunity for the guest
+program to damage the underlying hardware. Moreover, it is expected that there will be fewer vir-
+tual machine managers with respect to the number of virtual machine instances managed.
+
+Finally, by means of virtualization it is possible to achieve a more efficient use of resources.
+Multiple systems can securely coexist and share the resources of the underlying host, without inter-
+fering with each other. This is a prerequisite for server consolidation, which allows adjusting the
+number of active physical resources dynamically according to the current load of the system, thus
+creating the opportunity to save in terms of energy consumption and to be less impacting on the
+environment.

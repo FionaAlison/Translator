@@ -1,0 +1,9 @@
+zainstalować: 
+
+1. tesseract + tesseract-lang
+2. pip install googletrans==3.1.0a0
+3. pytorch
+4. transformers
+5. matplotlib
+6. tqdm
+7. pip install sentencepiece
